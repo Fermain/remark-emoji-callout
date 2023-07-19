@@ -16,7 +16,7 @@ const defaultConfig: Config = {
   iconClass: "callout-title-icon",
 };
 
-const REGEX = /^(\S+)(?:\s+(\S+))?(?:\s+(.*))?/;
+const REGEX = /^(\S+)\s+(.*)/;
 
 const plugin: Plugin = (customConfig?: Partial<Config>) => {
   const mergedConfig = {
